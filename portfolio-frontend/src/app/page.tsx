@@ -1,12 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <div>
-      <main>
-       <div>Main Hero Section</div>
-      </main>
-    </div>
+    <div>Home</div>
   );
 }
