@@ -1,6 +1,5 @@
 @use './theme/theme.scss' as *;
 
-
 html,
 body,
 #root,
@@ -20,6 +19,7 @@ body,
 
 body {
   background-color: $primary-bg;
+  color: $primary-text;
 
   @media (width >=$max) {
     width: $max;
