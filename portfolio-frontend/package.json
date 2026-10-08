@@ -12,10 +12,13 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^9.4.0",
+    "@reduxjs/toolkit": "^2.13.0",
     "next": "16.3.0",
     "postcss-scss": "^4.0.9",
     "react": "19.2.8",
     "react-dom": "19.2.8",
+    "react-redux": "^9.3.0",
+    "redux-persist": "^6.0.0",
     "sass": "^1.105.1"
   },
   "devDependencies": {
