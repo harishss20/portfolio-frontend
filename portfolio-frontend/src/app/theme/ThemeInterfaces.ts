@@ -1,8 +1,8 @@
 // ------------- ENUM ---------------- //
 
 export enum THEME {
-    DARK = "DARK",
-    LIGHT = "LIGHT"
+    DARK = "dark",
+    LIGHT = "light"
 }
 
 // ------------- INTERFACE ---------------- //

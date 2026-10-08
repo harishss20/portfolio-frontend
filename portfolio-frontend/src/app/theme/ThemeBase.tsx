@@ -9,8 +9,9 @@ const ThemeBase = () => {
 
     const selectedTheme = useSelector(useConfigTheme);
     useEffect(() => {
-        document.body.setAttribute("product-theme", selectedTheme);
+        document.body.setAttribute("app-theme", selectedTheme);
     }, [
+        selectedTheme
     ]);
     return <></>;
 };

@@ -1,0 +1,29 @@
+@use './theme/theme.scss' as *;
+
+
+html,
+body,
+#root,
+.app,
+.main-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app {
+  @media (width >=$max) {
+    position: relative;
+  }
+}
+
+body {
+  background-color: $primary-bg;
+
+  @media (width >=$max) {
+    width: $max;
+    position: relative;
+    margin: auto;
+  }
+}
