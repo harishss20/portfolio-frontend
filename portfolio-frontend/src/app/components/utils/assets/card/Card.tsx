@@ -1,6 +1,6 @@
+"use client";
 import { Grid } from "@mui/material";
 import "./_card.scss";
-import React from "react";
 
 import { TbExternalLink } from "react-icons/tb";
 
