@@ -4,7 +4,7 @@ import { THEME, ThemeConfigProps } from "./ThemeInterfaces";
 
 
 const initialState = {
-    theme: THEME.LIGHT
+    theme: THEME.DARK
 };
 
 const ThemeSlice = createSlice({

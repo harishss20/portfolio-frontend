@@ -25,9 +25,9 @@ function Card(props: CardProps) {
     cardDetails.map((card: CardDeatilProps) => (
       <Grid  key={card.title} className="card-container">
         <div className="card-img-container">
-          <div className="card-img">  //bgImage
+          <div className="card-img">
             <span className="card-title"> {card.title} </span>
-            <img src={card.projectImage} alt={card.title} />
+            <img className="card-project-img" src={card.projectImage} alt={card.title} width={180} height={130}/>
           </div>
         </div>
         <div className="discription-container">

@@ -6,28 +6,12 @@ export default function Home() {
   const CARD_DETAILS: CardDeatilProps[] = [
     {
       title: "test1",
-      discription: "test disc",
-      bgImage: "https://i.pinimg.com/236x/36/98/e1/3698e143b1f1c356805bf972147ae7e5.jpg", // just example it will be in public images,
+      discription: "test disccard-container disccard-containerdisccard-containerdisccard-container",
+      bgImage: "https://i.pinimg.com/236x/36/98/e1/3698e143b1f1c356805bf972147ae7e5.jpg",
       link: "test",
-      projectImage: "https://i.pinimg.com/236x/36/98/e1/3698e143b1f1c356805bf972147ae7e5.jpg",
+      projectImage: "https://lh3.googleusercontent.com/79W9w2q1HfUmLayOs7xE9mBjxdRFRZL035eTeU0jRkPkPoA20HWZaJRC6gK8kC6hwYdGbk89wuZme8QnVVARR4rX=s1280-w1280-h800",
       tools: ["react, scss"]
     },
-        {
-      title: "test1",
-      discription: "test disc",
-      bgImage: "https://i.pinimg.com/236x/36/98/e1/3698e143b1f1c356805bf972147ae7e5.jpg", // just example it will be in public images,
-      link: "test",
-      projectImage: "https://i.pinimg.com/236x/36/98/e1/3698e143b1f1c356805bf972147ae7e5.jpg",
-      tools: ["react, scss"]
-    },
-        {
-      title: "test1",
-      discription: "test disc",
-      bgImage: "https://i.pinimg.com/236x/36/98/e1/3698e143b1f1c356805bf972147ae7e5.jpg", // just example it will be in public images,
-      link: "test",
-      projectImage: "https://i.pinimg.com/236x/36/98/e1/3698e143b1f1c356805bf972147ae7e5.jpg",
-      tools: ["react, scss"]
-    }
   ]
   return (
     <div>Home
